@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(54, 110, 138);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    gap: 10px;
+}
+.one,.two,.three,.four{
+    background-color: rgb(35, 55, 75);
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 10px;
+    height: 20px;
+    cursor: pointer;
+    color: rgb(221, 221, 221);    
+}
